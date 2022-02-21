@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Agenda</title>
+        <link rel="stylesheet" href="CSS/agenda.css">
+        <script src="Javascript/agenda.js"></script>
+    </head>
+    <body onload="cargarContactos()">
+        <div class="container">
+            <h2>Agenda de contactos</h2>
+                <div class="informacion">
+                    <form id="formulario" >
+                        <input type="text" id="nombre" name = "nombre" placeholder="Ingresar un nombre">
+                        <input type="text" id="apellido" name = "apellido" placeholder="Ingresar un apellido">
+                        <input type="text" id="telefono" name = "telefono" placeholder="Ingresar un numero tel.">
+                        <button id="agregarContacto" type="submit">Agregar contacto</button>
+                        <div id="cuerpo" class="cuerpo">Cargando...</div>
+                    </form>
+                </div>
+        </div>
+    </body>
+</html>
